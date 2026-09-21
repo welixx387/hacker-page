@@ -14,7 +14,9 @@
   }
 
   body {
-    background-image: url("bg.jpg");
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
+      url("bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,13 +27,15 @@
 
   h1 {
     font-family: "Consolas", "Courier New", monospace;
+    font-weight: 700;
     font-size: clamp(2rem, 8vw, 6rem);
-    color: #ff1a1a;
+    color: #ff2b2b;
     text-shadow:
-      0 0 10px rgba(255, 26, 26, 0.9),
-      0 0 25px rgba(255, 26, 26, 0.7),
-      0 0 50px rgba(255, 0, 0, 0.5);
-    letter-spacing: 0.05em;
+      0 0 8px rgba(255, 43, 43, 1),
+      0 0 20px rgba(255, 43, 43, 0.85),
+      0 0 45px rgba(255, 0, 0, 0.6),
+      0 0 80px rgba(255, 0, 0, 0.35);
+    letter-spacing: 0.06em;
     text-align: center;
     margin: 0;
     padding: 0 1rem;
